@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "moonball",
+  "version": "${version}",
+
+  "name": "Moonball",
+  "description": "Moonball for Fabric.",
+  "authors": [
+    "unascribed (Fabric port)",
+    "tterrag (1.12 version)"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/moonball-fabric",
+    "sources": "https://github.com/unascribed/Moonball",
+    "issues": "https://github.com/unascribed/Moonball/issues"
+  },
+
+  "license": "MPL-2.0",
+  "icon": "assets/moonball/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [ "com.unascribed.moonball.Moonball" ],
+    "client": [ "com.unascribed.moonball.MoonballClient" ]
+  },
+  "mixins": ["moonball.mixins.json"],
+  "accessWidener" : "moonball.accesswidener",
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+  }
+}

@@ -1,0 +1,27 @@
+{
+    "item.moonball.moonball": "Moonball",
+    "entity.moonball.moonball": "Moonball",
+
+	"item.moonball.flavortext.0": "MOONBALL!",
+    "item.moonball.flavortext.1": "MUN-BAH!",
+    "item.moonball.flavortext.2": "MOO-BUH!",
+    "item.moonball.flavortext.3": "MOOONBAALL!",
+    "item.moonball.flavortext.4": "MUH-BUH!",
+    "item.moonball.flavortext.5": "MOOBA!",
+    "item.moonball.flavortext.6": "MERNBULL!",
+    "item.moonball.flavortext.rare.0": "Mühnbah!",
+    "item.moonball.flavortext.rare.1": "moon ball ☺",
+
+	"death.attack.moonball.self": "%s was killed by a hostile work environment",
+    "death.attack.moonball": "%s was killed by a hostile work environment created by %s",
+    "death.attack.moonball.item": "%s was killed by a hostile work environment created by %s and their %s",
+
+    "moonball.hud.dangerzone": "%s called %s!",
+    "moonball.hud.dangerzone.self": "You call %s!",
+    
+    "subtitles.moonball.bounce": "Moonball bounces",
+    "subtitles.moonball.throw": "Moonball flies",
+    
+    "gamerule.moonball:damage": "Moonball damage",
+    "gamerule.moonball:damage.description": "The amount of damage a Moonball does. Affected by velocity, this is not a max or min"
+}

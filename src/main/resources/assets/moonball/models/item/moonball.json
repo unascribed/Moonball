@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "moonball:item/moonball_base",
+    "layer1": "moonball:item/moonball_overlay"
+  }
+}

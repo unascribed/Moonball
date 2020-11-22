@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.unascribed.moonball.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+  	"MixinAbstractFileResourcePack",
+  	"MixinItemStringReader",
+  	"MixinClientPlayNetworkHandler",
+  	"MixinPlayerEntity"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

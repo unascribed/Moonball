@@ -1,0 +1,22 @@
+{
+  "type": "moonball:moonball_crafting",
+  "pattern": [
+    " S ",
+    "WIW",
+    " S "
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_block"
+    },
+    "S": {
+      "item": "minecraft:slime_ball"
+    },
+    "W": {
+      "tag": "minecraft:wool"
+    }
+  },
+  "result": {
+    "item": "moonball:moonball"
+  }
+}
